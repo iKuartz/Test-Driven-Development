@@ -8,4 +8,8 @@ class Solver
       raise 'Please, insert a positive value'
     end
   end
+
+  def reverse(string)
+    string.reverse
+  end
 end
