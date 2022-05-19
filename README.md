@@ -4,7 +4,7 @@
 
 We implement a Solver class using the test-driven development metodology. The implemented methods were:
 - factorial of a number
-- Areverse string
+- reverse string
 - fizzbuzz
 
 ## Built With
