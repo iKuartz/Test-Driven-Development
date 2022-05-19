@@ -15,19 +15,19 @@ class Solver
 
   def fizzbuzz(number)
     string = ''
-    if number%3 == 0
+    if (number % 3).zero?
       string = 'fizz'
-      if number%5 == 0
-        string = string + 'buzz'
-        return string
+      if (number % 5).zero?
+        "#{string}buzz"
+
       else
-        return string
+        string
       end
-    elsif number%5 == 0
-      string = 'buzz'
-      return string
+    elsif (number % 5).zero?
+      'buzz'
+
     else
-      return number.to_s
+      number.to_s
     end
   end
 end
